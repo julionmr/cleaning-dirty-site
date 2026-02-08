@@ -1,0 +1,116 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/images/uploads"
+public_folder: "/assets/images/uploads"
+
+collections:
+  - name: "site"
+    label: "Site Content"
+    files:
+      - name: "content"
+        label: "Main Content"
+        file: "content.json"
+        fields:
+          - { label: "Brand", name: "brand", widget: "string" }
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Headline", name: "headline", widget: "string" }
+              - { label: "Subheadline", name: "subheadline", widget: "text" }
+          - label: "Trust Badges"
+            name: "trustBadges"
+            widget: "list"
+            field: { label: "Badge", name: "badge", widget: "string" }
+          - label: "Availability"
+            name: "availability"
+            widget: "object"
+            fields:
+              - { label: "Days", name: "days", widget: "string" }
+              - { label: "Hours", name: "hours", widget: "string" }
+          - { label: "Team Line", name: "teamLine", widget: "string" }
+          - { label: "Service Area", name: "serviceArea", widget: "string" }
+          - { label: "Response Time", name: "responseTime", widget: "string" }
+          - label: "Services"
+            name: "services"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Intro", name: "intro", widget: "text" }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Body", name: "body", widget: "text" }
+          - label: "Gallery"
+            name: "gallery"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Intro", name: "intro", widget: "text" }
+          - label: "How It Works"
+            name: "how"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Intro", name: "intro", widget: "text" }
+              - label: "Steps"
+                name: "steps"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Body", name: "body", widget: "text" }
+          - label: "Why"
+            name: "why"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Intro", name: "intro", widget: "text" }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Body", name: "body", widget: "text" }
+          - label: "About"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Intro", name: "intro", widget: "text" }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Body", name: "body", widget: "text" }
+          - label: "Reviews"
+            name: "reviews"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Intro", name: "intro", widget: "text" }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Quote", name: "quote", widget: "text" }
+                  - { label: "Name", name: "name", widget: "string" }
+          - label: "Contact"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Intro", name: "intro", widget: "text" }
+              - { label: "Note", name: "note", widget: "text" }
+              - { label: "Phone Label", name: "phoneLabel", widget: "string" }
+              - { label: "Phone Link", name: "phoneLink", widget: "string" }
+              - { label: "Email Label", name: "emailLabel", widget: "string" }
+              - { label: "Email Link", name: "emailLink", widget: "string" }
+              - { label: "Hours", name: "hours", widget: "string" }
+              - { label: "Area", name: "area", widget: "string" }
+          - { label: "Footer", name: "footer", widget: "string" }

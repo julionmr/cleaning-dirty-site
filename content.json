@@ -1,0 +1,126 @@
+{
+  "brand": "Cleaning Dirty",
+  "hero": {
+    "eyebrow": "Houston House Cleaning",
+    "headline": "Owner-operated cleanings with real attention to detail.",
+    "subheadline": "Cleaning Dirty provides reliable, careful house cleaning across Houston. Fast quotes, transparent communication, and a spotless finish every visit."
+  },
+  "trustBadges": [
+    "Solo owner-operator",
+    "Supplies included",
+    "Eco-safe options"
+  ],
+  "availability": {
+    "days": "Fri–Sun",
+    "hours": "12:00 PM – 6:00 PM"
+  },
+  "teamLine": "Solo worker on every visit",
+  "serviceArea": "Houston + nearby neighborhoods",
+  "responseTime": "Same-day replies when possible",
+  "services": {
+    "title": "Services",
+    "intro": "Clear, flexible options. Tell us what you need and we’ll tailor the clean.",
+    "items": [
+      {
+        "title": "Standard Clean",
+        "body": "Weekly or bi-weekly upkeep. Kitchens, baths, floors, dusting, and tidy reset."
+      },
+      {
+        "title": "Deep Clean",
+        "body": "Extra detail for baseboards, inside cabinets, fixtures, and buildup removal."
+      },
+      {
+        "title": "Move In / Move Out",
+        "body": "Empty-home cleaning for a fresh start or a perfect handoff."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Cleaning In Action",
+    "intro": "Real cleaning setups and tools that keep your home spotless."
+  },
+  "how": {
+    "title": "How It Works",
+    "intro": "Simple, fast, and built around your schedule.",
+    "steps": [
+      {
+        "title": "Request a quote",
+        "body": "Share your address, home size, and cleaning needs."
+      },
+      {
+        "title": "Confirm a time",
+        "body": "We’ll lock a slot Friday–Sunday, 12–6."
+      },
+      {
+        "title": "Enjoy the reset",
+        "body": "Expect careful work and a clean you can feel immediately."
+      }
+    ]
+  },
+  "why": {
+    "title": "Why Cleaning Dirty",
+    "intro": "Local, owner-operated service with a focus on trust and consistency.",
+    "items": [
+      {
+        "title": "Houston-based",
+        "body": "We know local homes and the details that matter in this climate."
+      },
+      {
+        "title": "Simple pricing",
+        "body": "Transparent quotes based on size and scope. No surprises."
+      },
+      {
+        "title": "Respectful care",
+        "body": "Shoe covers available, careful handling, and a tidy finish every visit."
+      }
+    ]
+  },
+  "about": {
+    "title": "About Our Company",
+    "intro": "Respect, service, and reliability are the core of how I work as a solo operator.",
+    "items": [
+      {
+        "title": "Respect for your home",
+        "body": "I treat every space with care, protect surfaces, and leave everything exactly as it should be."
+      },
+      {
+        "title": "Service-minded approach",
+        "body": "Clear communication, flexible scheduling, and a focus on your priorities every visit."
+      },
+      {
+        "title": "Consistency you can trust",
+        "body": "Owner-operated cleanings for steady quality and accountability."
+      }
+    ]
+  },
+  "reviews": {
+    "title": "Client Reviews",
+    "intro": "Real words from Houston homeowners.",
+    "items": [
+      {
+        "quote": "Perfect attention to detail and super respectful in our home. Our kitchen looked brand new.",
+        "name": "— Maria L., Midtown"
+      },
+      {
+        "quote": "On time, professional, and the results were amazing. I’m booking every two weeks.",
+        "name": "— James P., Heights"
+      },
+      {
+        "quote": "Great communication and they listened to exactly what I needed cleaned.",
+        "name": "— Aisha R., Westchase"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get a Quote",
+    "intro": "Tell us about your home and preferred time. We’ll reply quickly.",
+    "note": "Please include the exact details of what you want cleaned so I can be fully prepared.",
+    "phoneLabel": "(717) 736-2702",
+    "phoneLink": "tel:+17177362702",
+    "emailLabel": "entrepreneurqualitymotiv@gmail.com",
+    "emailLink": "mailto:entrepreneurqualitymotiv@gmail.com",
+    "hours": "Hours: Fri–Sun, 12pm–6pm",
+    "area": "Serving: Houston, TX"
+  },
+  "footer": "© 2026 Cleaning Dirty. Houston, Texas."
+}
