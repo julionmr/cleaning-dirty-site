@@ -126,24 +126,31 @@
         <p id="contactIntro">Tell us about your home and preferred time. We’ll reply quickly.</p>
       </div>
       <div class="contact-grid">
-        <form class="contact-form">
+        <form class="contact-form" name="quote" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thanks">
+          <input type="hidden" name="form-name" value="quote" />
+          <p class="hidden">
+            <label>
+              Don’t fill this out if you’re human:
+              <input name="bot-field" />
+            </label>
+          </p>
           <label>
             Name
-            <input type="text" placeholder="Your name" />
+            <input type="text" name="name" placeholder="Your name" required />
           </label>
           <label>
             Phone or Email
-            <input type="text" placeholder="(713) 555-0199 or you@email.com" />
+            <input type="text" name="contact" placeholder="(713) 555-0199 or you@email.com" required />
           </label>
           <label>
             Home details
-            <input type="text" placeholder="Beds/baths, size, pets, special notes" />
+            <input type="text" name="details" placeholder="Beds/baths, size, pets, special notes" required />
           </label>
           <label>
             Preferred day/time
-            <input type="text" placeholder="Friday 2pm, Saturday 1pm, etc." />
+            <input type="text" name="preferred_time" placeholder="Friday 2pm, Saturday 1pm, etc." required />
           </label>
-          <button class="btn" type="button">Request Quote</button>
+          <button class="btn" type="submit">Request Quote</button>
           <p class="form-note" id="contactNote">Please include the exact details of what you want cleaned so I can be fully prepared.</p>
         </form>
         <div class="contact-card">
